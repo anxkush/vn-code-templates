@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VN Code Templates - Professional Website Templates</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav {
+            display: flex;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #f5c2d4 0%, #e8b4d4 100%);
+            padding: 4rem 2rem;
+            text-align: center;
+            min-height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .templates-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 3rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .template-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>VN Code Templates</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#templates">Templates</a>
+            <a href="#cart">Cart</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Buy & Sell Professional Website Templates</h2>
+        <p>Browse our curated collection of high-quality website templates for any project.</p>
+        
+        <div class="templates-grid">
+            <div class="template-card">
+                <div style="height: 200px; background: #667eea;"></div>
+                <div style="padding: 1.5rem;">
+                    <h3>Portfolio Pro</h3>
+                    <p>Modern portfolio template for designers and developers.</p>
+                </div>
+            </div>
+            
+            <div class="template-card">
+                <div style="height: 200px; background: #764ba2;"></div>
+                <div style="padding: 1.5rem;">
+                    <h3>Business Starter</h3>
+                    <p>Clean and professional template for businesses and startups.</p>
+                </div>
+            </div>
+            
+            <div class="template-card">
+                <div style="height: 200px; background: #f093fb;"></div>
+                <div style="padding: 1.5rem;">
+                    <h3>Landing Page X</h3>
+                    <p>High-converting landing page for products and apps.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 VN Code Templates. All rights reserved.</p>
+    </footer>
+</body>
+</html>
