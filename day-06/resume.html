@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Resume - Your Name</title>
+    <link rel="stylesheet" href="resume.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="resume-container">
+        <img src="ANKUSH.png" alt="Profile Photo" id="profile-pic">
+        <header id="resume-header">
+            <h1 id="name">ANKUSH MISHRA</h1>
+            <p id="title">Web Developer</p>
+            <div id="contact-info">
+                <span>Email: business@gmail.com</span>
+                <span>Phone: 1234567890</span>
+                <span>Location: VADODARA,INDIA</span>
+            </div>
+        </header>
+
+        <nav id="resume-nav">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+        </nav>
+
+        <article id="about" class="resume-section fade-in">
+            <h2>About Me</h2>
+            <p>Passionate web developer with experience in building modern, responsive websites and web applications. Strong background in HTML, CSS, JavaScript, and UI/UX design.</p>
+        </article>
+
+        <article id="skills" class="resume-section slide-in-left">
+            <h2>Skills</h2>
+            <ul id="skills-list">
+                <li>HTML5 CSS3</li>
+                <li>JavaScript ES6</li>
+                <li>React.js</li>
+                <li>Responsive Design</li>
+                <li>UI/UX Principles</li>
+            </ul>
+        </article>
+
+        <article id="experience" class="resume-section slide-in-right">
+            <h2>Experience</h2>
+            <div id="job">
+                <h3>Front-End Developer <span>DELOITTE</span></h3>
+                <p id="job-date">Jan 2022 - Present</p>
+                <ul>
+                    <li>Developed interactive, responsive web pages using HTML, CSS, and JavaScript.</li>
+                    <li>Collaborated with designers to create engaging UI/UX.</li>
+                </ul>
+            </div>
+        </article>
+
+        <article id="education" class="resume-section fade-in">
+            <h2>Education</h2>
+            <div id="edu">
+                <h3>Bachelor of Technology in Computer Science</h3>
+                <p>GEETAM DEEMED TO BE UNIVERSITY, 2018 - 2022</p>
+            </div>
+        </article>
+
+        <article id="projects" class="resume-section slide-in-up">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Portfolio Website</strong> - Personal portfolio with animations and responsive design.</li>
+                <li><strong>Task Manager App</strong> - Web app for managing daily tasks with drag-and-drop UI.</li>
+            </ul>
+        </article>
+
+        <footer id="resume-footer">
+            <button onclick="window.print()" id="print-btn">Print Resume</button>
+        </footer>
+    </div>
+</body>
+</html>
